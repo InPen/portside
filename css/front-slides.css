@@ -1,0 +1,10 @@
+.slider:hover {
+    position: relative;
+}
+.slider:hover:after {
+    content: url("https://new.portside.org/themes/popeye/css/styles.css?randomstring1");
+    display: block;
+    position: absolute;
+    left: 0; /* change this value to one that suits you */
+    top: 0; /* change this value to one that suits you */
+}
